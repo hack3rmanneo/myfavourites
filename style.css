@@ -1,6 +1,6 @@
-body{
- text-align: center;
- background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+body {
+    text-align: center;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
 }
 
 h1 {
@@ -12,37 +12,53 @@ h1 {
     padding 20px;
     font-size: 18;
 }
-.img1{
-width:300px;;
-margin-left: 100px;
+
+.img1 {
+    width: 300px;
+    ;
+    margin-left: 100px;
 }
-.my_img{
-width: 200px;
-height: 300px;
-border-radius: 50%;
-text-align: center;
+
+.my_img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
 }
-.menu{
-list-style: none;                                                      l
-font-family: cursive;
-float: right;
-top: 10px;
-right: 30px;
-cursor: pointer;
-color: black;
-z-index: 10;
+
+.menu {
+    list-style: none;
+    l font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
 }
-.menu:hover{
-color:aqua;
+
+.menu:hover {
+    color: aqua;
 }
-.discription{
-background-color:palevioletred;
+
+.discription {
+    background-color: palevioletred;
 }
-.links{
- color: red;
- padding-left: 9px;
- padding-right: 9px;
-font-family: 'Fraunces';
- font-size: 20px;
- display: inline;  
+
+.links {
+    color: red;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Fraunces';
+    font-size: 20px;
+    display: inline;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
 }
