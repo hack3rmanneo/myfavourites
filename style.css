@@ -62,3 +62,17 @@ img {
 img:hover {
     transform: scale(0.9);
 }
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.gmail{
+width:30px;
+height:30px;
+}
+.instagram{
+width: 30px;
+height: 30px;
+}
